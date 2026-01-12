@@ -1,0 +1,13 @@
+# Ignore virtual environments
+env/
+venv/
+.env
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignore large raw data files (GitHub has a 100MB limit)
+Cmaps/
+*.txt
